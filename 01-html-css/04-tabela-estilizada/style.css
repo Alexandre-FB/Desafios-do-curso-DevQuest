@@ -1,0 +1,48 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categorias {
+    padding: 50px 20px;
+    border-bottom: 1px solid;
+}
+
+.titulo-categorias {
+    text-transform: uppercase;
+}
+
+.tabela {
+    color: #ffffff;
+    text-align: center;
+}
+
+.tabela-cabecalho {
+    text-transform: uppercase;
+}
+
+.tabela-cabecalho-celula {
+    padding: 5px  20px;      
+}
+
+.tabela-dados {
+    background-color: #424250;
+}
+
+.titulo-categoria-moda {
+    color: #725299;
+}
+
+.tabela-cabecalho-moda {
+    background-color: #bb86fc;
+}
+
+.titulo-categoria-casa {
+    color: #00665e;
+}
+
+.tabela-cabecalho-casa {
+    background-color: #00c4b4;
+}
+
+
+
