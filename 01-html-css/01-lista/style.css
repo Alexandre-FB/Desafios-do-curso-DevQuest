@@ -31,6 +31,17 @@ main li span {
     font-weight: bold;
 }
 
+footer {
+    background-color: #3CB371;
+    color: #ffffff;
+}
+
+footer p {
+    text-align: center;
+    padding: 010px 20px;
+}
+
 p span {
     font-weight: bold;
+    font-size: 1.3em;
 }
