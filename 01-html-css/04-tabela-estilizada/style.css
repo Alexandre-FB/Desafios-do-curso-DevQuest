@@ -7,42 +7,42 @@
     border-bottom: 1px solid;
 }
 
-.titulo-categorias {
-    text-transform: uppercase;
-}
-
-.tabela {
+.tabelas {
     color: #ffffff;
     text-align: center;
 }
 
-.tabela-cabecalho {
+.titulos {
+    text-transform: uppercase;
+}
+
+.cabecalhos {
     text-transform: uppercase;
     font-size: 0.9rem;
 }
 
-.tabela-cabecalho-celula {
+.cabecalho-celula {
     padding: 5px  20px;      
 }
 
-.tabela-dados {
+.dados {
     background-color: #424250;
     font-size: 0.8rem;
 }
 
-.titulo-categoria-moda {
+.titulo-moda {
     color: #725299;
 }
 
-.tabela-cabecalho-moda {
+.cabecalho-moda {
     background-color: #bb86fc;
 }
 
-.titulo-categoria-casa {
+.titulo-casa {
     color: #00665e;
 }
 
-.tabela-cabecalho-casa {
+.cabecalho-casa {
     background-color: #00c4b4;
 }
 
