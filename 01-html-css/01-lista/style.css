@@ -27,7 +27,7 @@ main li {
     margin: 10px 0;
 }
 
-main li span {
+main li strong {
     font-weight: bold;
 }
 
@@ -41,7 +41,7 @@ footer p {
     padding: 010px 20px;
 }
 
-footer p span {
+footer p strong {
     font-weight: bold;
     font-size: 1.3em;
 }
