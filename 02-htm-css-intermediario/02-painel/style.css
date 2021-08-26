@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+* {
+    /* box-sizing: border-box; */
+}
+
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.painel {
+    /* background-color:antiquewhite; */
+    width: 100%;
+    height: 348px;
+    position: relative;
+    margin: 100px 0;
+}
+
+.painel .container {
+    /* border: 2px solid black; */
+    max-width: 1440px;
+    height: 100%;  
+    margin: 0 auto;
+    padding: 0 0 0 3%;
+}   
+
+.painel .container .info-box {
+    /* background-color: rgb(146, 17, 114); */
+    width: 25%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.painel .container .info-box .titulo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.painel .container .info-box .subtitulo {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.painel .btn {
+    cursor: pointer;
+    background-color: #5BC241;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.painel .container .info-box .btn-desktop {
+    width: 127px;
+    height: 29px;
+    font-size: 15px;
+}
+
+.painel .btn-mobile {
+    display: none;
+}
+
+.painel .btn-link {
+    text-decoration: none;
+}
+
+.painel .img-box {
+    background-image: url(assets/painel.jpg);
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 992px) {
+
+    .painel {
+        /* background-color:antiquewhite; */
+        height: 250px;
+    }
+
+    .painel .container .info-box {
+        /* background-color: rgb(146, 17, 114); */
+        width: 40%;
+    }
+
+    .painel .container .info-box .titulo {
+        /* font-size: 25px; */
+    }
+    
+    .painel .container .info-box .subtitulo {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .painel .img-box {
+        width: 50%;
+}
+
+@media (max-width: 576px) {
+
+    .painel {
+        /* background-color:antiquewhite; */
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .painel .container {
+        /* border: 2px solid black; */
+        padding: 0 5%;
+        margin-bottom: 40px;
+    }   
+    
+    .painel .container .info-box {
+        /* background-color: rgb(146, 17, 114); */
+        width: 100%;
+        position: relative;
+        transform: none;
+        text-align: center;
+    }
+    
+    .painel .container .info-box .titulo {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    
+    .painel .container .info-box .subtitulo {
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+    
+    .painel .container .info-box .btn-desktop {
+        display: none;
+    }
+    
+    .painel .img-box {
+        background-image: url(assets/painel.jpg);
+        width: 90%;
+        margin: 0 auto 40px;
+        height: 127px;
+        position: static;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .painel .btn-mobile {
+        display: block;
+        margin: 0 auto;
+        width: 221px;
+        height: 73px;
+        font-weight: 300;
+        font-size: 30px;
+    }
