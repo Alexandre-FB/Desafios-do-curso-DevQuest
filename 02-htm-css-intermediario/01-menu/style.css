@@ -5,7 +5,7 @@ html {
 }
 
 header {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     padding: 2% 3%;
     max-width: 1440px;
     height: 100%;
@@ -13,7 +13,7 @@ header {
 }
 
 header .cabecalho {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 100%;
     position: relative;
 }
@@ -42,7 +42,6 @@ header .cabecalho .logo .logo-txt {
 header .cabecalho .menu {
     /* border: 2px solid red; */
     display: inline-block;
-    font-size: 15px;
     margin-left: 25%;
     height: 40px;
     line-height: 40px;
