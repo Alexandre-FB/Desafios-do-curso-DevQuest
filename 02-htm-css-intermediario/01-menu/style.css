@@ -4,72 +4,126 @@ html {
     font-family: 'Public Sans', sans-serif;
 }
 
-.cabecalho {
-    /* border: 2px solid black; */
+header {
+    /* border: 2px solid orange; */
+    padding: 2% 3%;
     width: 1140px;
-    height: 40px;
-    line-height: 40px;
-    padding: 38px 55px;
+    height: 100%;
     margin: 0 auto;
-    position: relative;
-   
 }
 
-.cabecalho .logo {
+header .cabecalho {
+    /* border: 2px solid black; */
+    position: relative;
+}
+
+header .cabecalho .logo {
     /* border: 2px solid red; */
     display: inline-block;
-    height: 100%;
-    
-   
+    height: 40px;
+    line-height: 40px;
 }
 
-.cabecalho .logo .logo-img {  
+header .cabecalho .logo .logo-img {  
     /* border: 2px solid blue; */
     height: 100%;
     display: inline-block;
-    float: left;
-   
 }
 
-.cabecalho .logo .logo-txt {
+header .cabecalho .logo .logo-txt {
     /* border: 2px solid green; */
     font-size: 20px;
     font-weight: 800;
     display: inline-block;
+    vertical-align: top;
 }
 
-.cabecalho .menu {
+header .cabecalho .menu {
     /* border: 2px solid red; */
     display: inline-block;
-    list-style: none;
-    position: absolute;
-    right: 366px;
-    
+    margin-left: 25%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: top;    
 }
 
-.cabecalho .menu .item {
+header .cabecalho .menu .item {
     display: inline-block;
-    text-decoration: none;
     color: #000;
     padding: 0 15px;
 }
 
-.cabecalho .menu .item:hover {
+header .cabecalho .menu .item:hover {
     background-color: #5BC241;
     color:#fff;
 }
 
+header .cabecalho .menu .link {
+    text-decoration: none;
+}
 
-
-.cabecalho .btn {
-    cursor: pointer;
+header .cabecalho .btn {
     width: 127px;
-    height: 39px;
-    background-color:#5BC241; 
+    height: 40px;
+    background-color:#5BC241;
     color: #fff;
     border-radius: 10px;
     border: 0;
-    display: inline-block;
+    cursor: pointer;
     position: absolute;
-    right: 55px;
+    top: 0;
+    right: 0;
+}
+
+header .cabecalho .btn-link {
+    text-decoration: none;
+}
+
+@media (max-width: 992px) {
+
+    header {
+        /* border: 2px solid black; */
+        width: 100%;
+    }
+
+    header .cabecalho .logo {
+        /* border: 2px solid blue; */
+        display: block;
+        text-align: center;
+   }
+
+   header .cabecalho .menu {
+       /* border: 2px solid green; */
+       display: block;
+       text-align: center;
+       margin: 20px 0;
+   }
+}
+
+@media (max-width: 768px) {
+
+    header .cabecalho .btn {
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    header {
+        /* border: 2px solid green; */
+        padding: 5% 0;
+    }
+
+    header .cabecalho .menu {
+        /* border: 2px solid red; */
+        height: 100%;
+    }
+    
+    header .cabecalho .menu .item {
+        /* border: 2px solid blue; */
+        display: block;
+        padding: 0;
+    }
 }
