@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
 
-* {
-    /* box-sizing: border-box; */
-}
-
 html {
     font-family: 'Public Sans', sans-serif;
 }
@@ -21,7 +17,7 @@ html {
     max-width: 1440px;
     height: 100%;  
     margin: 0 auto;
-    padding: 0 0 0 3%;
+    padding: 0 3%;
 }   
 
 .painel .container .info-box {
@@ -109,25 +105,23 @@ html {
         /* background-color:antiquewhite; */
         width: 100%;
         height: 100%;
-        position: relative;
     }
-    
+
     .painel .container {
         /* border: 2px solid black; */
-        padding: 0 5%;
-        margin-bottom: 40px;
-    }   
+        /* padding:  0 5%; */
+    }
     
     .painel .container .info-box {
         /* background-color: rgb(146, 17, 114); */
         width: 100%;
-        position: relative;
+        margin-bottom: 40px;
         transform: none;
         text-align: center;
     }
     
     .painel .container .info-box .titulo {
-        font-size: 30px;
+        /* font-size: 30px; */
         font-weight: 700;
         margin-bottom: 50px;
     }
@@ -148,8 +142,6 @@ html {
         margin: 0 auto 40px;
         height: 127px;
         position: static;
-        background-size: cover;
-        background-position: center;
     }
 
     .painel .btn-mobile {
