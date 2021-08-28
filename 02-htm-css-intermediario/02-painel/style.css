@@ -85,10 +85,6 @@ html {
         /* background-color: rgb(146, 17, 114); */
         width: 40%;
     }
-
-    .painel .container .info-box .titulo {
-        /* font-size: 25px; */
-    }
     
     .painel .container .info-box .subtitulo {
         font-size: 15px;
@@ -97,6 +93,7 @@ html {
     
     .painel .img-box {
         width: 50%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -109,7 +106,7 @@ html {
 
     .painel .container {
         /* border: 2px solid black; */
-        /* padding:  0 5%; */
+        padding:  0 5%;
     }
     
     .painel .container .info-box {
@@ -152,3 +149,5 @@ html {
         font-weight: 300;
         font-size: 30px;
     }
+}
+
