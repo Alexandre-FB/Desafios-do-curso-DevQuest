@@ -9,12 +9,10 @@ html {
 
     max-width: 1140px;
     margin: 100px auto;
-    text-align: center;
-    background-size: cover;
+    text-align: center;   
 }
 
 .galeria .foto-box {
-    border: 0;
     width: 22%;
     height: 335px;
     margin: 0 5px;
@@ -22,7 +20,6 @@ html {
     position: relative;
     background-size: cover;
     background-position: center;
-    
 }
 
 .filtro-de-cor {
@@ -33,7 +30,6 @@ html {
 
 .galeria .foto-box-1 {
     background-image:  url(assets/6.jpg);
-    
 }
 
 .galeria .foto-box-2 {
@@ -42,7 +38,6 @@ html {
 
 .galeria .foto-box-3 {
     background-image:  url(assets/4.jpg);
-    
 }
 
 .galeria .foto-box-4 {
@@ -67,3 +62,19 @@ html {
     font-weight: 300;
 }
 
+@media (max-width: 992px) {
+    .galeria .foto-box {
+        width: 45%;
+        height: 335px;
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .galeria .foto-box {
+        display: block;
+        width: 90%;
+        height: 430px;
+        margin: 0 auto;
+    }
+}
