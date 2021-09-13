@@ -9,33 +9,25 @@ html {
     width: 100%;
     height: 348px;
     position: relative;
-    margin: 100px 0;
+    margin: 100px auto;
 }
 
-.painel .container {
-    /* border: 2px solid black; */
-    max-width: 1440px;
-    height: 100%;  
-    margin: 0 auto;
-    padding: 0 3%;
-}   
-
-.painel .container .info-box {
+.painel .info-box {
     /* background-color: rgb(146, 17, 114); */
-    width: 25%;
+    width: 30%;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    margin: 0 0 0 3%;
 }
 
-.painel .container .info-box .titulo {
+.painel .info-box .titulo {
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 15px;
-
 }
 
-.painel .container .info-box .subtitulo {
+.painel .info-box .subtitulo {
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 50px;
@@ -49,7 +41,7 @@ html {
     border-radius: 10px;
 }
 
-.painel .container .info-box .btn-desktop {
+.painel .info-box .btn-desktop {
     width: 127px;
     height: 29px;
     font-size: 15px;
@@ -81,61 +73,54 @@ html {
         height: 250px;
     }
 
-    .painel .container .info-box {
+    .painel .info-box {
         /* background-color: rgb(146, 17, 114); */
         width: 40%;
     }
     
-    .painel .container .info-box .subtitulo {
+    .painel .info-box .subtitulo {
         font-size: 15px;
         margin-bottom: 30px;
     }
     
     .painel .img-box {
-        width: 50%;
+        width: 55%;
     }
 }
 
 @media (max-width: 576px) {
 
     .painel {
-        /* background-color:antiquewhite; */
-        width: 100%;
+        /* background-color:brown; */
+        width: 90%;
         height: 100%;
-    }
-
-    .painel .container {
-        /* border: 2px solid black; */
-        padding:  0 5%;
+        
     }
     
-    .painel .container .info-box {
+    .painel .info-box {
         /* background-color: rgb(146, 17, 114); */
         width: 100%;
-        margin-bottom: 40px;
+        margin: 0 auto 40px;
         transform: none;
         text-align: center;
     }
     
-    .painel .container .info-box .titulo {
-        /* font-size: 30px; */
-        font-weight: 700;
+    .painel .info-box .titulo {
         margin-bottom: 50px;
     }
     
-    .painel .container .info-box .subtitulo {
+    .painel .info-box .subtitulo {
         font-size: 20px;
         font-weight: 300;
-        margin-bottom: 0px;
     }
     
-    .painel .container .info-box .btn-desktop {
+    .painel .info-box .btn-desktop {
         display: none;
     }
     
     .painel .img-box {
         background-image: url(assets/painel.jpg);
-        width: 90%;
+        width: 100%;
         margin: 0 auto 40px;
         height: 127px;
         position: static;
@@ -146,7 +131,6 @@ html {
         margin: 0 auto;
         width: 221px;
         height: 73px;
-        font-weight: 300;
         font-size: 30px;
     }
 }
