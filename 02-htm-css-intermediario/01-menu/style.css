@@ -19,7 +19,6 @@ header .cabecalho {
 
 header .cabecalho .logo {
     /* border: 2px solid red; */
-    display: inline-block;
     height: 40px;
     line-height: 40px;
     float: left;
@@ -124,6 +123,5 @@ header .cabecalho .btn-link {
     header .cabecalho .menu .item {
         /* border: 2px solid blue; */
         display: block;
-      
     }
 }
