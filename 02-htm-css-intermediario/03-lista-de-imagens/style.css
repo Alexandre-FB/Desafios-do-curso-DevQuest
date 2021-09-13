@@ -65,16 +65,18 @@ html {
 @media (max-width: 992px) {
     .galeria .foto-box {
         width: 45%;
-        height: 335px;
         margin: 5px 5px;
     }
 }
 
 @media (max-width: 576px) {
+    .galeria {
+        margin: 20px auto;
+    }
+
     .galeria .foto-box {
         display: block;
         width: 90%;
-        height: 430px;
         margin: 0 auto;
     }
 }
