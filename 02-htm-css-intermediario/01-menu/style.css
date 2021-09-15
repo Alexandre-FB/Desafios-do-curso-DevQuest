@@ -74,9 +74,6 @@ header .cabecalho .btn {
     border: none;
     cursor: pointer;
     display: inline-block;
-}
-
-header .cabecalho .btn-link {
     text-decoration: none;
 }
 
