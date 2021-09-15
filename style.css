@@ -1,6 +1,75 @@
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    Margin: 40px 0;
-    font-weight: bold;
-    font-size: 1.5em;
+html {
+    font-family: sans-serif;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu .desafio {
+    display: inline-block;
+    width: 40%;
+    height: 500px;
+    padding: 5%;
+    vertical-align: top;
+    margin: 30px;
+}
+
+.menu .content-desafio {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu .titulo {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.menu .item {
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.menu .item:hover {
+    text-decoration: underline;
+}
+
+.menu .item-link {
+    color: #fff;
+}
+
+.menu .desafio-1-html-css {
+    background-color: cadetblue;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.menu .desafio-1-html-css:hover {
+    width: 40%;
+    background-color: rgb(59, 101, 102);
+    padding: 5%;
+    text-align: center;
+}
+
+.menu .desafio-2-html-css-intermediario {
+    background-color: rgb(110, 95, 160);
+    
+    text-align: center;
+    transition: 0.3s;
+}
+
+.menu .desafio-2-html-css-intermediario:hover {
+    width: 40%;
+    background-color: rgb(71, 61, 102);
+    padding: 5%;
+    text-align: center;
+}
+
+@media (max-width: 950px) {
+    .menu .desafio {
+        display: block;
+        width: 100%;
+    }
 }
