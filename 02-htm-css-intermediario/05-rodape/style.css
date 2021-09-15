@@ -14,11 +14,14 @@ html {
     /* background-color: blue; */
     max-width: 1440px;
     height: 100%;   
+    margin: 0 auto;
 }
 
 .rodape .logo {
+    /* border: 1px solid white; */
     height: 40px;
     margin: 0 0 30px;
+    
 }
 
 .rodape .logo .logo-img {
@@ -28,22 +31,19 @@ html {
 }
 
 .rodape .logo .logo-txt {
+    /* background-color: lawngreen; */
     display: inline-block;
-    vertical-align: top;
     font-weight: 800;
     color: #fff;
     font-size: 20px;
+    vertical-align: top;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.rodape .logo .logo-link {
-    text-decoration: none;
-}
-
 .rodape .coluna {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: inline-block;
     width: 24%;
     vertical-align: top;
@@ -114,6 +114,55 @@ html {
     margin: 0 0 0 5px;
 }
 
+@media (max-width: 992px) {
+   
+   .rodape .logo {
+       text-align: center;
+       margin: 0 0 50px;
+       height: 50px;
+   }
 
+   .rodape .logo .logo-txt {
+       font-size: 25px;
+   }
+   
+
+    .rodape .coluna {
+        /* border: 1px solid white; */
+        display: block;
+        width: 100%;
+        margin: 0 0 50px;
+    }
+
+    .coluna-local {
+        text-align: center;
+        }
+
+    .rodape .local-icone {
+        display: block;
+        margin:  0 auto 10px;
+    }
+    
+    .rodape .local-texto {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .rodape .contato {
+        /* background-color: darkgreen; */
+        text-align: center;
+    }
+
+    .rodape .item-contato {
+        /* background-color: darkgreen; */
+        margin: 10px 20px;
+        display: inline-block;
+    }
+
+    .rodape .menu {
+        /* background-color: darkmagenta; */
+        text-align: center;
+    }
+}
 
 
