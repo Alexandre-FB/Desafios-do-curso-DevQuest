@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+
+body {
+    max-width: 1440px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.header {
+    margin: 2% 3%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    height: 35px;    
+}
+
+.header .logo .imagem {
+    height: 100%;
+}
+
+.header .logo .titulo {
+    font-size: 20px;
+    height: 800;
+}
+
+.header .menu {
+    display: flex;
+    font-size: 15px;
+    height: 400;
+}
+
+.header .menu .lista {
+    display: flex;
+}
+
+.header .menu .item {
+    padding: 10px;
+}
+
+.header .menu .item:hover {
+    background-color: #5BC241; 
+    color: #fff;
+}
+
+.header .cadastro {
+    background-color: #5BC241;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: #fff;
+}
