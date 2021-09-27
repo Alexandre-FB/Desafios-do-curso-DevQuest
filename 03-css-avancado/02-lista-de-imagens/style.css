@@ -4,7 +4,6 @@ body {
 }
 
 .container-imagens {
-    border: 1px solid black;
     margin: 100px 0;
     display: flex;
     justify-content: space-evenly;
@@ -12,7 +11,6 @@ body {
 
 .container-imagens .img-item {
     width: 23%;
-    max-width: 335px;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -72,7 +70,6 @@ body {
     .container-imagens .img-item {
         width: 47%;
         margin: 5px 0;
-       
     }
 }
 
