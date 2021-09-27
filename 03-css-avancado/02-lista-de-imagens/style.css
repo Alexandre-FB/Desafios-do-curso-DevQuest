@@ -1,0 +1,83 @@
+body {
+    max-width: 1440px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.container-imagens {
+    border: 1px solid black;
+    margin: 100px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-imagens .img-item {
+    width: 23%;
+    max-width: 335px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-imagens .img-01 {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(src/images/3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.container-imagens .img-02 {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(src/images/4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-imagens .img-03 {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(src/images/5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-imagens .img-04 {
+    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(src/images/6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container-imagens .legenda {
+    margin: 0 0 15px 15px;
+}
+
+.container-imagens .legenda .nome-da-obra {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.container-imagens .legenda .nome-do-artista {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media (max-width: 940px) {
+    .container-imagens {
+        flex-wrap: wrap;
+    }
+
+    .container-imagens .img-item {
+        width: 47%;
+        margin: 5px 0;
+       
+    }
+}
+
+@media (max-width: 490px) {
+    .container-imagens .img-item {
+        width: 90%;
+    }
+}
