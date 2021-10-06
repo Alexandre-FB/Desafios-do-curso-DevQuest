@@ -4,6 +4,7 @@
 body {
     max-width: 1440px;
     font-family: 'Public Sans', sans-serif;
+    margin: 0 auto;
 }
 
 .header {
@@ -25,13 +26,14 @@ body {
 
 .header .logo .titulo {
     font-size: 20px;
-    height: 800;
+    font-weight: 800;
 }
 
 .header .menu {
     display: flex;
     font-size: 15px;
-    height: 400;
+    font-weight: 400;
+    align-items: center;
 }
 
 .header .menu .lista {
@@ -39,10 +41,14 @@ body {
 }
 
 .header .menu .item {
-    padding: 10px;
+    display:flex;
 }
 
-.header .menu .item:hover {
+.header .menu .link {
+    padding: 10px 15px;
+}
+
+.header .menu .link:hover {
     background-color: #5BC241; 
     color: #fff;
 }
@@ -56,7 +62,7 @@ body {
     width: 127px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
     .header {
         flex-direction: column;
         margin-top: 5%;
@@ -77,24 +83,28 @@ body {
     }
 }
 
-@media (max-width: 560px) {
+@media (max-width: 644px) {
     
-    .header .menu {
+     .header .menu {
         flex-direction: column;
         width: 160px;
         font-size: 20px;
-        align-items: center;
         text-align: center;
+        height: 310px;
     }
-    
+  
     .header .menu .lista {
         flex-direction: column;
         width: 100%;
     }
 
+    .header .menu .lista .link {
+        width: 100%;
+    }
+
     .header .menu .btn-cadastro {
-      margin-top: 40px;
+      margin: 40px 0 0 0;
       width: 100%;
       font-size: 15px;
-    }
+    } 
 }

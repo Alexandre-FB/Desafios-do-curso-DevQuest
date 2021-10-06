@@ -1,6 +1,7 @@
 body {
     max-width: 1440px;
     font-family: 'Public Sans', sans-serif;
+    margin: 0 auto;
 }
 
 .container-imagens {
@@ -10,7 +11,7 @@ body {
 }
 
 .container-imagens .img-item {
-    width: 23%;
+    flex-basis: 23%;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -68,13 +69,13 @@ body {
     }
 
     .container-imagens .img-item {
-        width: 47%;
+        flex-basis: 47%;
         margin: 5px 0;
     }
 }
 
 @media (max-width: 490px) {
     .container-imagens .img-item {
-        width: 90%;
+        flex-basis: 90%;
     }
 }
