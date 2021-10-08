@@ -10,7 +10,7 @@ function dividir (numero1 = 0, numero2 = 0) {
     return "A divisão de " + numero1 + " por " + numero2 + " é " + (numero1 / numero2);
 }
 
-function multiplicar (numero1 = 0, numero2 = 0) {
+function multiplicar (numero1, numero2) {
     return "A multiplicação de " + numero1 + " por " + numero2 + " é " + (numero1 * numero2);
 }
 
