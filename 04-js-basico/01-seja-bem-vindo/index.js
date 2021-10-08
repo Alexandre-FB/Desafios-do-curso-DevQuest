@@ -1,4 +1,4 @@
-let nome = window.prompt("Informe seu nome.");
+let nome = prompt("Informe seu nome.");
 
-window.alert("Seja bem vindo(a), " + nome
+alert("Seja bem vindo(a), " + nome
 + "!");
