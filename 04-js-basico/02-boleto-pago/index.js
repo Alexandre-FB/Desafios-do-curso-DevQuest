@@ -1,7 +1,3 @@
-let boletoPago = false;
+let boleto = false;
 
-if (boletoPago != false) { 
-    window.alert("O boleto está pago!");    
-} else {
-    window.alert("O boleto NÃO está pago!");
-}
+boleto == true ? alert("O boleto está pago!") : alert("O boleto NÃO está pago!");
