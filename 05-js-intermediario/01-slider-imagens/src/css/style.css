@@ -1,0 +1,124 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+    line-height: 3.5rem;
+}
+
+/* ESTILO GLOBAL */
+
+.slider-container {
+    width: 100%;
+    height: 100vh;
+    max-height: 1040px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider-container::before {
+    content: '';
+    background: url(../images/seta.png);
+    background-size: cover;
+    width: 49px;
+    height: 80px;
+    position: absolute;
+    left: 4%;
+    transform: rotate(180deg);
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slider-container::after {
+    content: '';
+    background: url(../images/seta.png);
+    background-size: cover;
+    width: 49px;
+    height: 80px;
+    position: absolute;
+    right: 4%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.slider-container .img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.slider-container .img .legenda {
+    background-color: #fff;
+    width: 35%;
+    max-width:620px;
+    height: 710px;
+    position: relative;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3.5%;
+    border-radius: 10px;
+}
+
+.slider-container .img .legenda .titulo {
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.slider-container .img .legenda .texto {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.slider-container .img .legenda .saiba-mais {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* ESTILO DE CADA IMAGEM */
+
+.slider-container .img.primeira {
+    background: url(../images/4.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-container .img.primeira .saiba-mais{
+    color: #C50000;
+}
+
+.slider-container .img.segunda {
+    background: url(../images/1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-container .img.segunda .saiba-mais{
+    color: #D9DD10;
+}
+
+.slider-container .img.terceira {
+    background: url(../images/3.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-container .img.terceira .saiba-mais{
+    color: #A63A17;
+}
+
+.slider-container .img.quarta {
+    background: url(../images/2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.slider-container .img.quarta .saiba-mais{
+    color: #10ACDD;
+}
