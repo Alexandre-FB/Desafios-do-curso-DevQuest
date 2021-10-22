@@ -1,0 +1,129 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.bg {
+    background: url(../images/bg-repeat.jpg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container-contato {
+    display: grid;
+    grid-template-areas:
+    'texto formulario';
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 0;
+}
+
+.texto {
+    grid-area: texto;
+    /* background-color: aquamarine; */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto .titulo {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 2.3rem;
+}
+
+.texto .paragrafo {
+    font-weight: 400;
+    max-width: 310px;
+    margin-top: 10px;
+    line-height: 1.8rem;
+}
+
+.form-bg {
+    grid-area: formulario;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: #fff; 
+    max-width: 335px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.form .item {
+    margin-bottom: 15px;
+}
+
+.form .item .campo {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.form .item .campo.mensagem {
+    height: 100px;
+    padding-top: 8px;
+ }
+
+.form .item .campo::placeholder {
+    color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.form .item .alerta-obrigatorio {
+    color: red;
+}
+.form .legenda-campos-obrigatorios {
+    width: 300px;
+}
+
+.form .btn {
+    width: 300px;
+    height: 41px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 25px;
+    background-color: #3CCC87;
+    color: #fff;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+        .container-contato {
+        grid-template-areas: 
+        'texto'
+        'formulario';
+        grid-template-rows: 0.8fr 2fr;
+        grid-template-columns: auto;
+        padding: 5px 0;
+    }
+
+        .texto {
+            text-align: center;
+            padding: 0 5%;
+        }
+
+}
+
