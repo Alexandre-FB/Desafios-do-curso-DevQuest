@@ -1,5 +1,5 @@
-const imagens = document.querySelectorAll('.img')
-const indexUltimaFoto = imagens.length - 1
+const listaImagens = document.querySelectorAll('.img')
+const indexUltimaFoto = listaImagens.length - 1
 const indexPrimeiraFoto = 0
 
 const setaAvancar = document.querySelector('.seta-avancar')
@@ -9,11 +9,12 @@ const comOpacidade = (seta) => seta.style.opacity = '0.5'
 
 let indexAtual = 0
 
-setaAvancar.addEventListener('click', function(){
+setaAvancar.addEventListener('click', () => {
+    
     if (indexAtual < indexUltimaFoto) {
         indexAtual++
-        imagens[indexAtual].style.display = 'flex'
-        imagens[indexAtual-1].style.display = 'none'
+        listaImagens[indexAtual].style.display = 'flex'
+        listaImagens[indexAtual-1].style.display = 'none'
         semOpacidade(setaVoltar)
     } if (indexAtual >= indexUltimaFoto) {
         indexAtual = indexUltimaFoto 
@@ -24,8 +25,8 @@ setaAvancar.addEventListener('click', function(){
 setaVoltar.addEventListener('click', function(){
     if (indexAtual > indexPrimeiraFoto) {
         indexAtual --
-        imagens[indexAtual].style.display = 'flex'
-        imagens[indexAtual+1].style.display = 'none'
+        listaImagens[indexAtual].style.display = 'flex'
+        listaImagens[indexAtual+1].style.display = 'none'
         semOpacidade(setaAvancar)
     } 
     if (indexAtual <= 0) {

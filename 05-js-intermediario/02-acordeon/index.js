@@ -11,9 +11,7 @@ perguntas.forEach(item => {
         
         if (estaEscondido == true) {
             item.classList.remove('esconder')
-        } else {
-            item.classList.add('esconder')
-        }       
+        }      
     })
 })
   

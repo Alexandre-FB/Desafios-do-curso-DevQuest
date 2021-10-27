@@ -28,33 +28,34 @@
             </section>
 
             <div class="form-bg">
-                <form class="form" action="index.html">
+                <form class="form" action="">
                     
                     <div class="item">
                         <input class="campo" type="text" name="nome" id="nome" placeholder="Nome Completo*">
-                        <p class="alerta-obrigatorio">campo obrigatório</p>
+                        <p class="alerta nome-obrigatorio"></p>
                     </div>
                     
                     <div class="item">
-                        <input class="campo" type="text" name="email" id="email" placeholder="Email*">
-                        <p class="alerta-obrigatorio">campo obrigatório</p>
+                        <input class="campo" type="email" name="email" id="email" placeholder="Email*">
+                        <p class="alerta email-obrigatorio"></p>
                     </div>
                     
                     <div class="item">
                         <input class="campo" type="number" name="telefone" id="telefone" placeholder="Telefone*">
-                        <p class="alerta-obrigatorio">campo obrigatório</p>
+                        <p class="alerta telefone-obrigatorio"></p>
                     </div>
                     
                     <div class="item">
                         <textarea class="campo mensagem" name="mensagem" id="mensagem" cols="0" rows="0" placeholder="Mensagem*"></textarea>
-                        <p class="alerta-obrigatorio">campo obrigatório</p>
+                        <p class="alerta mensagem-obrigatorio"></p>
                     </div>
 
                     <p class="legenda-campos-obrigatorios">
                         *Campos Obrigatórios
                     </p>
                     
-                    <button class="btn">Enviar</button>
+                    <button type="submit" class="btn">Enviar</button>
+                    
                 </form>
             </div>
         </div>

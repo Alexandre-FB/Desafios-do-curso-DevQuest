@@ -62,8 +62,6 @@ body {
 
 .faq-container .perguntas{
     grid-area: perguntas;
-    /* width: 95%; */
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -152,17 +150,12 @@ body {
     }
 
     .faq-container .bg-imagem {
-        grid-area: imagem; 
-        position: relative;
-        display: flex;
         align-items: flex-end;
         justify-content: center;
-        /* background-color: aquamarine */
     }
 
     .faq-container .bg-imagem .imagem {
         right: unset;
-        position: absolute;
         width: 150px;
     }
 }

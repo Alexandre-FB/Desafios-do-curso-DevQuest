@@ -27,10 +27,8 @@ body {
 
 .texto {
     grid-area: texto;
-    /* background-color: aquamarine; */
     color: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -49,14 +47,13 @@ body {
 
 .form-bg {
     grid-area: formulario;
-    /* background-color: burlywood; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .form {
-    background-color: #fff; 
+    background-color: #fff;
     max-width: 335px;
     min-width: 300px;
     display: flex;
@@ -69,6 +66,7 @@ body {
     margin-bottom: 15px;
 }
 
+
 .form .item .campo {
     width: 300px;
     height: 35px;
@@ -77,6 +75,10 @@ body {
     padding: 0 5px;
     border: 1px solid #000;
     box-sizing: border-box;
+}
+
+.form .item .campo:focus {
+    outline: none;
 }
 
 .form .item .campo.mensagem {
@@ -91,11 +93,11 @@ body {
     font-size: 1.5rem;
 }
 
-.form .item .alerta-obrigatorio {
+.form .item .alerta {
     color: red;
 }
 .form .legenda-campos-obrigatorios {
-    width: 300px;
+    width: 100%;
 }
 
 .form .btn {
@@ -107,6 +109,15 @@ body {
     background-color: #3CCC87;
     color: #fff;
     border: none;
+    cursor: pointer;
+}
+
+.form .item .campo.campo-vazio  {
+    border: 1px solid red;  
+}
+
+.form .item .campo.campo-correto  {
+    border: 1px solid #19DE21;  
 }
 
 
