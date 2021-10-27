@@ -46,21 +46,25 @@ html {
     
 }
 
-.desafios-dev-quest .desafio-1-html-css-basico {
+.desafios-dev-quest .desafio-1 {
     background-color: cadetblue;
     
 }
 
-.desafios-dev-quest .desafio-2-html-css-intermediario {
+.desafios-dev-quest .desafio-2 {
     background-color: rgb(110, 95, 160);
 }
 
-.desafios-dev-quest .desafio-3-css-avancado {
+.desafios-dev-quest .desafio-3 {
     background-color: rgb(160, 95, 120);
 }
 
-.desafios-dev-quest .desafio-4-js-basico {
+.desafios-dev-quest .desafio-4 {
     background-color: rgb(160, 150, 95);
+}
+
+.desafios-dev-quest .desafio-5 {
+    background-color: rgb(95, 160, 114);
 }
 
 
