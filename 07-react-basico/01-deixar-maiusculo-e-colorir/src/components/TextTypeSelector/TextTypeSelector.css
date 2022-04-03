@@ -1,0 +1,8 @@
+.container .buttonsContainer .btn {
+    background-color: #008DDD;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
