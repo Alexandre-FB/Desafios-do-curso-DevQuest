@@ -1,6 +1,6 @@
 import "./TextForEdit.css";
 
-const TextContent = "Eu sou um texto. Estilize-me";
+const TextContent = "Eu sou um texto. Estilize-me!";
 
 const TextForEdit = () => {
   return (

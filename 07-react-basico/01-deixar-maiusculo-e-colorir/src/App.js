@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <TextForEdit />
       <TextTypeSelector text={TextContent} />
-      <ColorPicker colors={["red", "blue", "green", "purple"]} />
+      <ColorPicker colors={["#dd006f", "#008DDD", "#00dd0f", "#8500dd"]} />
     </div>
   );
 }

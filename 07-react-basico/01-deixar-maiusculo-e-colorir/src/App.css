@@ -3,7 +3,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  background-color: black;
+  color: #fff;
+  height: 100vh;
 }
 
 .container {
